@@ -1,6 +1,6 @@
 # MorseCodeDP
 
-Hello, this is a quick solution for trying to figure out unspaced morse code. It is written using pure dynamic programming, and has a theorized runtime of worst case O(n). It will be a little bit slower than expected, due to the .update calls, but O(n) is good enough. Enjoy!
+Hello, this is a quick solution for trying to figure out unspaced morse code. It is written using pure dynamic programming, but still has a runtime of Ω(n2^(n)). The problem is that in prefix codes, losing the seperators between coded words makes it extemely difficult to decode. Thus, the runtime is enormous **because** the output is enormous, and you cannot do much better than that! More detailed analysis soon.
 
 # Usage
 
